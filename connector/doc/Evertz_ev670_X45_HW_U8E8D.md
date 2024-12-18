@@ -54,7 +54,8 @@ The connector polls most of the tables using subtable functionalities to reduce 
 
 In range **1.0.0.x**, the following pages are available in the element:
 
-- **General**: Includes parameters that match the "System" page on the device such as the Build Time and CPU Temperature. This also includes a parameter named **Amount of Outputs to show**, which can be toggled to **show all the outputs** that the device provides in all of the tables or to just show the **first 8 outputs in all of the tables**.
+- **General**: Includes parameters that match the "System" page on the device such as the Build Time and CPU Temperature. This also includes a parameter named **Amount of Outputs to show**, which can be toggled to **show all the outputs** that the device provides in all of the tables or to just show the **first 8 outputs in all of the tables**
+  NOTE: THE "QSFP Table" columns for "RX Power Level" and "TX Power Level" will not populate with the currently released version of the Evertz ev670-X45-HW U8E8D firmware. This issue has been fixed by Evertz, but the new firmware is not publically available yet.
 - **Network Management**: Includes all of the network management tables such as Control Port Configuration, Data Port Configuration, RS-FEC Control, Data Port Monitor, Magnum In-Band Controller, Time Management, NTP Server, and SNMP Trap Servers.
 - **Product Features**: Includes the support statuses of each of the product features and their licenses.
 - **Timing**: Includes various PTP and Genlock-related configuration parameters.
